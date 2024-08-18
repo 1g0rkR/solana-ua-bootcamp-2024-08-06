@@ -13,7 +13,7 @@ const decodedSecretKey = bs58.decode(secretKeyString);
 const secretKey = Uint8Array.from(decodedSecretKey);
 const keypair = Keypair.fromSecretKey(secretKey);
 
-console.log(`Public key: ${keypair.publicKey.toBase58()}`);
-console.log(`Private key: ${keypair.secretKey}`);
+// console.log(`Public key: ${keypair.publicKey.toBase58()}`);
+// console.log(`Private key: ${keypair.secretKey}`);
 
 export { keypair };
